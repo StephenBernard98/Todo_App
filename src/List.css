@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(to top left, #17051f66, rgb(0, 7, 0)), url('https://media.gettyimages.com/id/1077341604/photo/to-do-list-on-notebook-page-with-laptop-and-coffee-mug.jpg?s=612x612&w=gi&k=20&c=kVFjBfk0v3ZMbaVjFSt-9YYBzHR9p-JgdeOLS0V4RDw=');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    min-width: 100vw;
+}
+
+.form {
+    min-height: 100vh;
+}
+
+input {
+    margin-top: 40px;
+    padding: 15px 50px;
+    width: 100%;
+    box-sizing: border-box;
+    box-shadow: 4px 4px 3px rgba(219, 238, 7, 0.425);
+    border: none;
+    font-weight: 700;
+    font-size: 17px;
+    border-radius: 2px;
+}
+
+input:focus {
+    background-color: #e0e0e0;
+}
+
+input::-webkit-input-placeholder {
+    color: rgb(233, 7, 7);
+}
+
+button {
+    transition: hover, 450ms;
+    border-radius: 2px;
+    width: 50%;
+    margin: 20px 23%;
+    padding: 5px;
+    background-color: rgb(75, 75, 117);
+    color: #fff;
+    font-weight: 800;
+    box-shadow: 3px 2px 3px #1d0f0f;
+}
+
+button:hover {
+    background-color: rgb(7, 0, 0);
+}
+
+li {
+    list-style: none;
+    border: 2px solid rgba(2, 5, 10, 0.26);
+    border-radius: 5px;
+    font-weight: 700;
+    margin-top: 10px;
+    margin-left: -10px;
+    margin-right: 20px;
+    padding: 10px;
+    box-shadow: 4px 4px 5px black;
+    background: linear-gradient(to bottom, rgba(192, 153, 209, 0.7), rgba(248, 248, 248, 1));
+    color: #080808;
+    border: none;
+    /* text-align: left; */
+    font-size: 20px;
+}
